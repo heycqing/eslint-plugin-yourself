@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-yourself",
+  "version": "1.0.0",
+  "description": "发现问题都出现在 `eslint` 上，虽然是js的格式化插件，但是由于不同公司有着不同的 eslint 插件，为了避免出现同样的错误，深入学习做一个 DIY eslint 插件是很有必要的。",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lintJs": "eslint ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heycqing/eslint-plugin-yourself.git"
+  },
+  "author": "cqing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heycqing/eslint-plugin-yourself/issues"
+  },
+  "homepage": "https://github.com/heycqing/eslint-plugin-yourself#readme"
+}
